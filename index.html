@@ -20,49 +20,51 @@
         <h1>Stim Monitor</h1>
         <h4>Count your stim count! </h4>
        
-        <button id="start">Start monitoring</button>
+        <button id="start">Start the stim counter</button>
         <div id="usageNoteMain">
         <h4>Usage notes</h4>
-       
+       <p>This is a test to get more features for a better algorithm</p>
+       <p>Other features are already there.</p>
+
         </div>
     </div>
 </div>
 <div id="loader"></div> 
 <div id="dashboard">
     <div id="dashboardContent">
-        <h3>Statistics</h3>
-        <p>Status: <span id="userMessage">Click to the left to activate your webcam.</span></p>
+        <h3>Stats</h3>
+        <p>Status: <span id="userMessage">Click to activate your magic moodcompass tester!.</span></p>
         <div id="statsDiv" hidden>
             <p>Face touches:  <span id="touches"></span></p>
             <p>Last touch:  <span id="lastTouch"></span></p>
             <p>Touch rate per hour: <span id="perHour"></span></p>
             <p>FPS: <span id="fps"></span></p>
         </div>
-        <h3>Controls</h3>
+        <h3>Test different ways of running it</h3>
         <div id="controls">
             <label for="alertTimeOut">Time between alerts (s)</label>
             <input type="text" size=4 id="alertTimeOut" name="alertTimeOut" value="5"><br>
 
             <input type="checkbox" id="beepToggle" name="beepToggle" value="beepToggle" checked >
-            <label for="beepToggle">Beep on touch</label><br>
+            <label for="beepToggle">To Beep or not to beep</label><br>
 
             <input type="checkbox" id="notifyToggle" name="notifyToggle" value="notifyToggle" >
-            <label for="notifyToggle">Browser notification on touch</label><br>
+            <label for="notifyToggle">Browser notifications </label><br>
 
             <input type="checkbox" id="showMask" name="showMask" value="showMask">
-            <label for="showMask">Display the segmentation mask</label><br>
+            <label for="showMask">Show the masks</label><br>
 
             <input type="checkbox" id="showPoints" name="showPoints" value="showPoints">
-            <label for="showPoints">Display detection points</label><br>
+            <label for="showPoints">Pose Net for Facial features</label><br>
 
-            <p>Trade off speed for accuracy:</p>
-            <button id="highSpeed" disabled>Faster</button>
-            <button id="normalSpeed" disabled>Normal</button>
-            <button id="lowerSpeed" disabled>More accurate</button>
-            <button id="lowSpeed" disabled>Most accurate</button>
+            <p>Better Speed, lower Accuracy:</p>
+            <button id="highSpeed" disabled>Fastest</button>
+            <button id="normalSpeed" disabled>Average</button>
+            <button id="lowerSpeed" disabled>precise</button>
+            <button id="lowSpeed" disabled>Most precise</button>
 
 
-            <button id="reset">Exit / Restart</button>
+            <button id="reset">Restart</button>
             <div id="usageNoteSide">Suck my balls....my garrison.</div>
         </div>
     </div>
